@@ -9,4 +9,6 @@ class Membership < ApplicationRecord
   foreign_key: :group_id,
   class_name: "Group"
 
+
+
 end
