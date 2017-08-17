@@ -8,6 +8,8 @@ class User < ApplicationRecord
   foreign_key: :group_id,
   class_name: "Membership"
 
+
+
   attr_reader :password
   after_initialize :ensure_session_token
 
