@@ -9,7 +9,7 @@ class User < ApplicationRecord
   class_name: "Membership"
 
 
- 
+   
   attr_reader :password
   after_initialize :ensure_session_token
 
