@@ -6,3 +6,4 @@ class Group < ApplicationRecord
   foreign_key: :member_id,
   class_name: "Membership"
 end
+   
